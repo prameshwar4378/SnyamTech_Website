@@ -1,0 +1,3 @@
+Stander  bg color  =  #255170
+
+hero color code : 2, 50, 60,

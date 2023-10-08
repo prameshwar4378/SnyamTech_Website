@@ -584,7 +584,7 @@ section {
   height: 1px;
   display: inline-block;
   background: #1acc8d;
-  margin: 4px 10px;
+  margin: 4px 2px;
 }
 
 .section-title p {
@@ -684,19 +684,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 3px outset #2C6B97;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: #2C6B97;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: #2C6B97;
+  border-color: #2C6B97;
 }
 
 .about .icon-box:hover .icon i {
@@ -1468,7 +1468,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: rgb(30,41,91);  
+  background: linear-gradient(300deg, rgba(30,41,91,1) 0%, rgba(16,135,159,1) 100%);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1480,11 +1481,12 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #255170;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
   padding: 30px 20px;
+  border-radius:20px;
 }
 
 #footer .footer-top .footer-info h3 {
